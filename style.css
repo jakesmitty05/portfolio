@@ -1,0 +1,110 @@
+.topofpage {
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.myname {
+    background-color: aquamarine;
+    font-size: 40px;
+    display: inline-block;
+    padding: 10px;
+    padding-left: 70px;
+}
+
+nav {
+    margin: 20px;
+    text-align: right;
+    width: 60%;
+}
+
+nav a {
+    margin: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.welcome {
+    background-color: #7fffd4;
+    text-align: right;
+    padding: 20px;
+}
+
+.welcome h1 {
+    font-size: 25px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+aside {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 60px;
+    font-size: 20px;
+    border-right-style: solid;
+    border-right-color: lightseagreen;
+}
+
+#aboutmesection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutmetext {
+    width: 60%;
+    margin: 20px;
+}
+
+#work {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardsbox {
+    width: 60%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: solid;
+    padding: 40px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.card header {
+    background-color: lightseagreen;
+    border: solid;
+    border-color: black;
+    position: relative;
+    margin-top: -60px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: inset 0px 0px 8px lightseagreen, 0 0 15px lightseagreen;
+}
+
+img {
+    max-width: 150px;
+    max-height: 150px;
+    
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
